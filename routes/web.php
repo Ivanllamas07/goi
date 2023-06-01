@@ -23,4 +23,3 @@ Route::group(['middleware' => 'auth'], function () {
     Route::post('/profile/update', [ProfileController::class, 'update'])->name('profile.update');
 });
 
-?>
